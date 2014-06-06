@@ -2,13 +2,13 @@ header {
     margin: 10px 0 0 10px;
 }
 
-/* Make glyphicons bigger*/
+/* Make glyphicons bigger */
 span.glyphicon {
     font-size: 25px;
 }
 
 /* Settings below are for the default state of the side menu and body */
-/* So that when the body text is pushed off screen it gets that hidden affect, no scrollbar*/
+/* So that when the body text is pushed off screen it gets that hidden affect, no scrollbar */
 .menu {
     overflow-x: hidden;
     position: relative;
@@ -39,4 +39,10 @@ span.glyphicon {
 
 .menu-toggled, .menu-toggled:hover {
     color: red;
+}
+
+/* Transition effect for menu slide out */
+.menu-side, .menu {
+    -webkit-transition: left 500ms ease;
+    transition: left 500ms ease;
 }
