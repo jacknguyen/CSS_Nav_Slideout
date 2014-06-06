@@ -1,15 +1,17 @@
+header {
+    margin: 10px 0 0 10px;
+}
+
+/* Make glyphicons bigger*/
+span.glyphicon {
+    font-size: 25px;
+}
+
+/* Settings below are for the default state of the side menu and body */
 /* So that when the body text is pushed off screen it gets that hidden affect, no scrollbar*/
 .menu {
     overflow-x: hidden;
     position: relative;
-    left: 0;
-}
-
-.menu-open {
-    left: 231px;
-}
-
-.menu-open .menu-side {
     left: 0;
 }
 
@@ -25,11 +27,16 @@
     padding: 10px;
 }
 
-header {
-    margin: 10px 0 0 10px;
+/* Settings for when the side menu is opened */
+
+.menu-open {
+    left: 231px;
 }
 
-/* Make glyphicons bigger*/
-span.glyphicon {
-    font-size: 25px;
+.menu-open .menu-side {
+    left: 0;
+}
+
+.menu-toggled, .menu-toggled:hover {
+    color: red;
 }

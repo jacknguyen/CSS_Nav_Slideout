@@ -1,5 +1,6 @@
 (function() {
     $('.menu-toggle').bind('click', function() {
-        console.log('Clicked');
+        $('body').toggleClass('menu-open');
+        $('.menu-toggle').toggleClass('menu-toggled');
     });
 })();
