@@ -1,0 +1,20 @@
+.menu-side {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    color: white;
+    width: 230px;
+    height: 100%;
+    border-right: 1px solid #000;
+    padding: 10px;
+    left: -230px;
+}
+
+header {
+    margin: 10px 0 0 10px;
+}
+
+/* Make glyphicons bigger*/
+span.glyphicon {
+    font-size: 25px;
+}
