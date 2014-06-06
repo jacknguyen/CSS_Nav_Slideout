@@ -1,13 +1,20 @@
+/* So that when the body text is pushed off screen it gets that hidden affect, no scrollbar*/
+.menu {
+    overflow-x: hidden;
+    position: relative;
+    left: 231px;
+}
+
 .menu-side {
     position: fixed;
     top: 0;
+    left: 0;
+    border-right: 1px solid #000;
     background-color: black;
     color: white;
-    width: 230px;
+    width: 210px;
     height: 100%;
-    border-right: 1px solid #000;
     padding: 10px;
-    left: -230px;
 }
 
 header {
