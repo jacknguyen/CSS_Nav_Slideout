@@ -2,13 +2,21 @@
 .menu {
     overflow-x: hidden;
     position: relative;
+    left: 0;
+}
+
+.menu-open {
     left: 231px;
+}
+
+.menu-open .menu-side {
+    left: 0;
 }
 
 .menu-side {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -231px;
     border-right: 1px solid #000;
     background-color: black;
     color: white;
